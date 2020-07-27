@@ -2,6 +2,8 @@
 
 Provides the ability to easily add a custom Add To Home Screen button with minimal markup for your Gatsby Progressive Web Application.
 
+_Formerly, gatsby-plugin-a2hs_
+
 ### Dependencies
 
 _gatsby-plugin-manifest_\
@@ -9,13 +11,13 @@ _gatsby-plugin-offline_
 
 ## How to install
 
-> `npm i gatsby-plugin-a2hs`
+> `npm i gatsby-plugin-pwainstall`
 
 ## Usage
 
 ```js
 // In your gatsby-config.js
-plugins['gatsby-plugin-a2hs']
+plugins['gatsby-plugin-pwainstall']
 ```
 
 ## Optional Properties
@@ -32,7 +34,7 @@ plugins['gatsby-plugin-a2hs']
 ## Examples of usage
 
 ```js
-import AddToHomeScreen from 'gatsby-plugin-a2hs'
+import AddToHomeScreen from 'gatsby-plugin-pwainstall'
 
 export default (props) => {
 	return (
