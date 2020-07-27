@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-plugin-pwainstall",
+  "version": "1.1.0",
+  "description": "Add To Home Screen installation plugin for Progressive Web Apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PWA",
+    "Progressive",
+    "Web",
+    "App",
+    "Add",
+    "To",
+    "Home",
+    "Page",
+    "Gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "Ryan Prentiss",
+  "license": "MIT",
+  "homepage": "https://github.com/RyanPrentiss/gatsby-plugin-pwainstall",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanPrentiss/gatsby-plugin-pwainstall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyanPrentiss/gatsby-plugin-pwainstall/issues"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
