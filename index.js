@@ -3,7 +3,7 @@ import { navigate } from 'gatsby'
 import moment from 'moment'
 
 const provideButton = (_) => {
-	const dismissed = localStorage.getItem('a2hs_dismissal')
+	const dismissed = localStorage.getItem('pwa_dismissal')
 	return !dismissed || dismissed < moment() ? true : false
 }
 
@@ -41,7 +41,7 @@ export default (props) => {
 
 			if (result.outcome === 'dismissed') {
 				localStorage.setItem(
-					'a2hs_dismissal',
+					'pwa_dismissal',
 					moment().add(suspend || 2, 'days')
 				)
 				if (dismissedUri) navigate(dismissedUri)
